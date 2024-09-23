@@ -1,0 +1,97 @@
+:root {
+  --font-size-base: 16px;
+  --font-size-base-secundaria: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: var(--font-size-base);
+}
+body {
+  max-width: 660px;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1% 5%;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+hr{
+  margin: 2% 0%;
+  border: 3px solid #ccc;
+}
+main {
+  margin: 0 auto;
+  padding: 0% 3%;
+}
+h2{
+  font-size: 1.2rem;
+  margin: 4% 0% 0% 0%;
+  padding: 0% 0%;
+}
+p{
+  margin: 0% 0% 3% 0%;
+  text-decoration:underline ;
+}
+/* datos-usuarios  */
+.datos-usuarios {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.datos-usuarios form {
+  width: 100%;
+  margin: 1%;
+  padding: 1%;
+  box-sizing: border-box;
+}
+.datos-usuarios ul {
+  width: 100%;
+  list-style: none;
+}
+.datos-usuarios li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.datos-usuarios form label {
+  width: 130px;
+  margin: 1%;
+}
+.datos-usuarios form input {
+  width: 350px;
+  padding: 2%;
+  margin: 1%;
+  border: 1px solid #00000050;
+  border-radius: 5px;
+}
+::placeholder {
+  color: #acabab;
+}
+footer{
+  text-align: center;
+  margin-top: 3%;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1020px) {
+  html {
+    font-size: calc(var(--font-size-base) * 0.95);
+  }
+}
+@media (max-width: 490px) {
+  html {
+    font-size: calc(var(--font-size-base) * 0.75);
+  }
+  ::placeholder{
+    font-size: calc(var(--font-size-base) * 0.75);
+  }
+  hr{
+    margin: 7% 0%;
+  }
+}
