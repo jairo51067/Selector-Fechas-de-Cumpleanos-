@@ -1,7 +1,7 @@
 # Selector Fechas de Cumpleaños 
 Una sencilla interfaz de usuario para seleccionar fechas de cumpleaños, creada como ejemplo para demostrar la estructura básica de un formulario HTML.
 
-[Enlace al proyecto](https://jairo51067.github.io/Selector-de-Fechas-de-Cumpleanos-/) 
+[Enlace al proyecto](https://jairo51067.github.io/Selector-Fechas-de-Cumpleanos-/) 
  
 Imagen del proyecto
 ![Selector de fechas](https://github.com/user-attachments/assets/4d3b373e-3c13-4b8d-b970-e38750176e79)
